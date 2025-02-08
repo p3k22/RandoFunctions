@@ -28,12 +28,10 @@ namespace P3ks_Afterlife_Secondary_Toolbelt_Fix.Mods
                   if (isRunning)
                   {
                      var adjusted = idx >= 10 ? idx - 10 : idx;
-
                      return adjusted;
                   }
 
                   Toolbelt.ActivateSecondaryToolbelt();
-
                   return idx;
                }));
 
